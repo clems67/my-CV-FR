@@ -1,0 +1,98 @@
+#photo {
+	display: flex;
+	height: 150px;
+	width: 150px;
+	object-fit: cover;
+	border-radius: 50%/*70px*/;
+	justify-content: center;
+	margin: 30px auto 30px;
+}
+
+#section_left {
+	float: left;
+	width: 280px;
+	background: #FECA07;
+	position: relative;
+}
+
+.contact{
+	margin-bottom: 20px;
+}
+
+.contact p{
+	margin: 0 25px;
+}
+
+.contact .title{
+	width: 100%;
+	height: fit-content;
+	background-color: #404040;
+	margin-bottom: 20px;
+}
+
+.contact h3 {
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+
+.about_me {
+	margin-bottom: 20px;
+}
+
+.about_me p{
+	padding: 0 25px 5px;
+}
+
+.about_me .title {
+	display: flex;
+	justify-content: center;
+	background-color: #404040;
+	margin-bottom: 10px;
+}
+
+.about_me h3{
+	color: white;
+}
+
+.title h3{
+	color: #FECA07;
+}
+
+/* HOBBIES */
+
+.hobbies{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.hobbies h3 {
+	margin: 20px 25px;
+	display: flex;
+	justify-content: center;
+}
+
+.hobbies .title{
+	background-color: #404040;
+	height: fit-content;
+}
+
+.hobbies_images {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 30px;
+}
+
+.basketball_image {
+	height: 40px;
+}
+
+.weightlifting_image {
+	height: 40px;
+	margin: 0 15px;
+}
+
+.badminton_image {
+	height: 40px;
+}

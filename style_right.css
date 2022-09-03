@@ -1,0 +1,154 @@
+#section_right {
+	margin: 25px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#my_name {
+	font-size: 35px;
+	margin-bottom: 10px;
+}
+
+#title {
+	margin-bottom: 50px;
+}
+
+#bar_title {
+	height: 2.5px;
+	width: 100px;
+	background-color: #FECA07;
+	margin-top: 5px;
+}
+
+.bar {
+	height: 2.5px;
+	width: fit-content;
+	background-color: #FECA07;
+	margin-bottom: 15px;
+}
+
+/*	EDUCATION	*/
+
+#education {
+	margin-bottom: 40px;
+}
+
+#education .title {
+	display: flex;
+	margin-bottom: 5px;
+}
+
+#education .title .sub_title_text {
+	align-self: center;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+#education li {
+	margin-bottom: 10px;
+	margin-left: 15px;
+	display: grid;
+	grid-template-columns: 10px 130px auto;
+}
+
+.education_date{
+	font-weight: bold;
+}
+
+.education_place{
+	font-weight: normal;
+	margin-top: 5px;
+}
+
+.formation_name{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.education_description{
+	font-weight: normal;
+	margin-top: 5px;
+}
+
+/*	EXPERIENCE	*/
+
+#experience {
+	margin-bottom: 40px;
+}
+
+#experience .title {
+	display: flex;
+	margin-bottom: 5px;
+}
+
+#experience .title .sub_title_text {
+	align-self: center;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+#experience li {
+	margin-bottom: 20px;
+	display: grid;
+	grid-template-columns: 10px 160px auto;
+}
+
+.experience_date{
+	font-weight:bold;
+}
+
+.point::before {
+	content: '\2022';
+	font-weight: bold;
+}
+
+.company_name {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.position_name{
+	margin-bottom: 5px;
+}
+
+.experience_place{
+	font-weight: normal;
+}
+
+.experience_description{
+	color:#5E5E5E
+}
+
+/* REFERENCES */
+
+#references img {
+	height: 50px;
+}
+
+#references .title {
+	display: flex;
+	margin-bottom: 5px;
+}
+
+#references .title .sub_title_text {
+	align-self: center;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+#references .people_container {
+	display: flex;
+	width: 100%;
+}
+
+#references .person_1 {
+	width: 50%;
+}
+
+#references .person_2 {
+	width: 50%;
+}
