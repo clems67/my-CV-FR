@@ -36,6 +36,8 @@
 	justify-content: center;
 }
 
+/* ABOUT ME */
+
 .about_me {
 	margin-bottom: 20px;
 }
@@ -59,6 +61,18 @@
 	color: #FECA07;
 }
 
+/* LIENS*/
+
+.links .title {
+	display: flex;
+	justify-content: center;
+	background-color: #404040;
+	margin-bottom: 10px;
+}
+
+.links a{
+	padding: 0 25px 5px;
+}
 /* HOBBIES */
 
 .hobbies{
